@@ -1,15 +1,10 @@
 .filtres .fas {
   color: #0065fc;
-}
-
-.image {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 20px / 20px;
   background-color: #deebff;
-  width: 35px;
-  height: 35px;
+  padding: 10px;
+  border-radius: 20px;
+  max-width: 16px;
+  min-width: 13px;
 }
 
 .filtres p {
@@ -35,8 +30,8 @@
 
 .filters-container {
   display: flex;
-  flex-direction: row;
   align-items: center;
   justify-content: space-between;
   width: 60%;
+  margin-top: 15px;
 }
