@@ -1,0 +1,41 @@
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #f2f2f2;
+  width: 66%;
+  height: 700px;
+}
+
+.cards img {
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+  height: 180px;
+}
+
+.cards p {
+  margin-left: 20px;
+}
+
+.cards {
+  margin: 30px;
+  background-color: white;
+  border: 5px white solid;
+  border-radius: 20px;
+  width: 22%;
+  line-height: 5px;
+}
+
+.stars {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+
+.full-star {
+  color: #0065fc;
+}
+
+.empty-star {
+  color: #f2f2f2;
+}
