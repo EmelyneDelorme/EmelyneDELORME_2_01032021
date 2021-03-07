@@ -4,16 +4,19 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-left: 30px;
+}
+
+nav {
+  padding: 10px;
 }
 
 header a {
   color: black;
-  padding: 20px;
+  padding: 5px;
   text-decoration: none;
 }
 
-a:focus {
+.header a:focus {
   color: #0065fc;
   border-top: 1px solid #0065fc;
 }
@@ -21,4 +24,8 @@ a:focus {
 .inscription {
   color: #0065fc;
   font-weight: 700;
+}
+
+.header img {
+  margin-left: 30px;
 }

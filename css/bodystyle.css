@@ -12,11 +12,27 @@ h1 {
 }
 
 h2 {
+  margin-left: 30px;
+  font-weight: 700;
+  align-self: flex-start;
+  width: 100%;
+}
+
+h3 {
   font-weight: 700;
   font-size: medium;
   margin-left: 30px;
 }
 
-p {
-  margin-left: 30px;
+h4 {
+  font-weight: 700;
+  font-size: large;
+  margin-left: 10px;
+  width: 200px;
+  line-height: 0px;
+}
+
+em {
+  font-weight: 700;
+  font-style: normal;
 }
