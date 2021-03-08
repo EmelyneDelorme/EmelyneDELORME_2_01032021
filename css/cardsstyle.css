@@ -7,6 +7,7 @@
   margin: 20px;
   align-content: flex-start;
   height: fit-content;
+  margin-bottom: 70px;
 }
 
 .cardsstyle a {
@@ -21,10 +22,11 @@
 
 .cards-hébergement h2 {
   height: 10px;
+  margin-left: 20px;
+  margin-top: 0;
 }
 
 .cards {
-  background-color: white;
   border: 5px white solid;
   border-radius: 20px;
   width: 30%;
@@ -32,17 +34,16 @@
   line-height: 0px;
   box-shadow: 3px 3px 5px rgb(216, 213, 213);
   overflow: hidden;
+  background-color: white;
 }
 
 .cards img {
-  border-radius: 20px 20px 0px 0px;
   width: 100%;
   height: 60%;
   object-fit: cover;
 }
 
 .cards p {
-  margin-left: 20;
   margin-bottom: 0;
   height: 15px;
 }
@@ -55,11 +56,12 @@
   align-items: center;
   background-color: #f2f2f2;
   width: 66%;
-  height: 600px;
+  height: 620px;
   border-radius: 20px;
   padding-top: 15px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
   overflow: hidden;
 }
 
@@ -67,10 +69,11 @@
   border-radius: 20px;
   background-color: #f2f2f2;
   width: 30%;
-  height: 600px;
+  height: 620px;
   padding-top: 15px;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -78,16 +81,19 @@
 }
 
 .cards-populaire h2 {
-  width: 350px;
+  width: 85%;
   display: flex;
   justify-content: space-between;
+  align-self: center;
+  margin: 0;
+  margin-top: 10px;
 }
 
 .cards1 {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-start;
   margin: 20px;
   background-color: white;
   border: 5px white solid;
@@ -96,6 +102,7 @@
   width: 90%;
   line-height: 5px;
   box-shadow: 0px 3px 5px rgb(216, 213, 213);
+  overflow: hidden;
 }
 
 .cards h4 {
@@ -103,7 +110,6 @@
 }
 
 .cards1 img {
-  border-radius: 20px 0px 0px 20px;
   width: 40%;
   height: 100%;
   object-fit: cover;
@@ -131,7 +137,6 @@
 .nom-note {
   display: flex;
   flex-direction: column;
-  align-items: space-around;
   height: 100%;
 }
 
@@ -151,7 +156,7 @@
 }
 
 .afficher {
-  padding-left: 20px;
+  padding-left: 10px;
   font-weight: 700;
   align-self: flex-start;
   width: 100%;
@@ -164,27 +169,25 @@
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: flex-start;
   height: 500px;
   width: 100%;
 }
 
 .cards-activité {
-  margin: 10px;
-  border: 5px white solid;
   border-radius: 20px;
-  width: 20%;
-  height: 35%;
+  width: 23%;
+  height: 37%;
   line-height: 0px;
   box-shadow: 0px 3px 5px rgb(216, 213, 213);
+  background-color: white;
   overflow: hidden;
 }
 
 .cards-activité-tall {
-  margin: 10px;
   background-color: white;
-  border: 5px white solid;
   border-radius: 20px;
-  width: 20%;
+  width: 23%;
   height: 100%;
   line-height: 0px;
   box-shadow: 0px 3px 5px rgb(216, 213, 213);
@@ -192,41 +195,37 @@
 }
 
 .cards-activité-mid {
-  margin: 10px;
-  margin-top: 10px;
-  background-color: white;
-  border: 5px white solid;
   border-radius: 20px;
-  width: 20%;
-  height: 50%;
+  background-color: white;
+  width: 23%;
+  height: 52%;
   line-height: 0px;
   box-shadow: 0px 3px 5px rgb(216, 213, 213);
   overflow: hidden;
 }
 
 .cards-activité-tall img {
-  border-radius: 20px 20px 0px 0px;
-  height: 85%;
   width: 100%;
+  height: 90%;
   object-fit: cover;
 }
 
 .cards-activité-mid img {
-  border-radius: 20px 20px 0px 0px;
-  height: 75%;
+  height: 82%;
   width: 100%;
   object-fit: cover;
 }
 
 .cards-activité img {
-  border-radius: 20px 20px 0px 0px;
-  height: 60%;
+  height: 74%;
   width: 100%;
   object-fit: cover;
 }
 
 .container-cards-activité h4 {
   width: 100%;
-  height: fit-content;
+  height: 30px;
   line-height: 20px;
+  margin-top: 15px;
+  margin-left: 20px;
 }

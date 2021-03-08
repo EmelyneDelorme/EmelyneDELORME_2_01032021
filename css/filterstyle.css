@@ -10,8 +10,9 @@
 .filtres p {
   margin: 15px;
   border-radius: 20px / 20px;
-  padding-left: 15px;
-  padding-right: 20px;
+}
+.filters-container p {
+  font-weight: 700;
 }
 
 .filtres:hover {
