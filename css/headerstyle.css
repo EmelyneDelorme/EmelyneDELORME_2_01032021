@@ -21,7 +21,6 @@ header a {
   margin-left: 20px;
 }
 
-header a:hover,
 header a:focus {
   color: #0065fc;
   border-top: 1px solid #0065fc;
@@ -33,5 +32,19 @@ header a:focus {
 }
 
 .logo {
-  margin-left: 20px;
+  margin-left: 30px;
+}
+
+a.activite-anchor {
+  display: block;
+  position: relative;
+  top: -140px;
+  visibility: hidden;
+}
+
+a.hebergement-anchor {
+  display: block;
+  position: relative;
+  top: -112px;
+  visibility: hidden;
 }

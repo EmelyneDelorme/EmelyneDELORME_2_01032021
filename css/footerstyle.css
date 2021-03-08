@@ -9,7 +9,9 @@ footer {
 }
 
 .footer-items {
+  margin-left: 20px;
   margin-right: 150px;
+  width: 20%;
 }
 
 footer p {
