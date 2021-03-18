@@ -72,7 +72,7 @@
     margin-left: -10px;
   }
 
-  .bouton p {
+  .bouton .button-text {
     display: none !important;
   }
   .info .fas {
