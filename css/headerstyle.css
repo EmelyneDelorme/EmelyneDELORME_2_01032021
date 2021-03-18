@@ -12,14 +12,14 @@ header {
 header a {
   color: black;
   text-decoration: none;
-  padding: 14px;
+  padding: 11px;
   margin-right: 20px;
   margin-left: 20px;
 }
 
 header a:focus {
   color: #0065fc;
-  border-top: 1px solid #0065fc;
+  border-top: 2px solid #0065fc;
 }
 
 .inscription {

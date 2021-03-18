@@ -47,7 +47,7 @@
   }
 
   .filters-container {
-    width: 85% !important;
+    width: 95% !important;
   }
 
   .cardsstyle {
@@ -62,12 +62,16 @@
   }
 
   .cards {
-    width: 30% !important;
+    width: 31% !important;
     height: 40% !important;
   }
 
   .cards img {
     height: 55% !important;
+  }
+
+  .texte-hebergement {
+    height: 45% !important;
   }
 
   .afficher {
@@ -103,6 +107,14 @@
     height: 50% !important;
   }
 
+  .nom-note {
+    width: 100% !important;
+  }
+
+  .nom-note p {
+    font-size: 14px;
+  }
+
   .container-cards-activité {
     height: 500px !important;
     flex-wrap: wrap !important;
@@ -127,6 +139,10 @@
   .container-cards-activité h4 {
     margin-left: 20px !important;
     margin-top: 5px !important;
+  }
+
+  footer {
+    height: 250px !important;
   }
 
   .footer-items {
